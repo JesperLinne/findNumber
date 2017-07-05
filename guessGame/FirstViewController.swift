@@ -81,6 +81,7 @@ class FirstViewController: UIViewController {
     }
     
 
+    // skapar 12 random nummer från 30 till 100
     
     func getNumbers() -> [Int] {
         
@@ -99,12 +100,15 @@ class FirstViewController: UIViewController {
         
     }
     
+    // tar bort alla nummer
     
     func removeNumbers() {
         
         list.removeAll()
         
     }
+    
+    // När man har misslyckats
     
     func uiAlert() {
         
@@ -121,6 +125,8 @@ class FirstViewController: UIViewController {
         
     }
     
+    // Tiden tog slut
+    
     func EndOfTimeuiAlert() {
         
         startLabelButton.isHidden = false
@@ -136,6 +142,7 @@ class FirstViewController: UIViewController {
     }
     
     
+    // Skriver ut nummer på knapparna
     
     func nameButton() {
         
@@ -188,6 +195,8 @@ class FirstViewController: UIViewController {
         B12Label.setTitle(num11, for: .normal)
         
     }
+    
+    // vad som händer när man trycker på knapparna
     
     
     @IBAction func B1Button(_ sender: Any) {
@@ -442,6 +451,8 @@ class FirstViewController: UIViewController {
         nameButton()
     }
     
+    // Gömmer knapparna när spelet är slut
+    
     func hideButtons() {
         
         B1Label.isHidden = true
@@ -460,6 +471,8 @@ class FirstViewController: UIViewController {
         
         
     }
+    
+    // Visar knapparna när spelet startar
     
     func showButtons() {
         
