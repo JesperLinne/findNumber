@@ -14,6 +14,7 @@
 		24F6E09D1EDD513C008B4FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F6E09B1EDD513C008B4FD2 /* LaunchScreen.storyboard */; };
 		24F6E0A81EDD513C008B4FD2 /* guessGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6E0A71EDD513C008B4FD2 /* guessGameTests.swift */; };
 		24F6E0B31EDD513C008B4FD2 /* guessGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6E0B21EDD513C008B4FD2 /* guessGameUITests.swift */; };
+		24F6E0C11EDD53F9008B4FD2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6E0C01EDD53F9008B4FD2 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		24F6E0AE1EDD513C008B4FD2 /* guessGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guessGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F6E0B21EDD513C008B4FD2 /* guessGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessGameUITests.swift; sourceTree = "<group>"; };
 		24F6E0B41EDD513C008B4FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F6E0C01EDD53F9008B4FD2 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				24F6E0921EDD513C008B4FD2 /* AppDelegate.swift */,
 				24F6E0941EDD513C008B4FD2 /* ViewController.swift */,
+				24F6E0C01EDD53F9008B4FD2 /* FirstViewController.swift */,
 				24F6E0961EDD513C008B4FD2 /* Main.storyboard */,
 				24F6E0991EDD513C008B4FD2 /* Assets.xcassets */,
 				24F6E09B1EDD513C008B4FD2 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F6E0C11EDD53F9008B4FD2 /* FirstViewController.swift in Sources */,
 				24F6E0951EDD513C008B4FD2 /* ViewController.swift in Sources */,
 				24F6E0931EDD513C008B4FD2 /* AppDelegate.swift in Sources */,
 			);
@@ -418,7 +422,7 @@
 				DEVELOPMENT_TEAM = 8Q55PY4AZ9;
 				INFOPLIST_FILE = guessGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = se.malmo.app.guessGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.malmoApp.findNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -431,7 +435,7 @@
 				DEVELOPMENT_TEAM = 8Q55PY4AZ9;
 				INFOPLIST_FILE = guessGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = se.malmo.app.guessGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.malmoApp.findNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -514,6 +518,7 @@
 				24F6E0B91EDD513C008B4FD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24F6E0BA1EDD513C008B4FD2 /* Build configuration list for PBXNativeTarget "guessGameTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				24F6E0BC1EDD513C008B4FD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24F6E0BD1EDD513C008B4FD2 /* Build configuration list for PBXNativeTarget "guessGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				24F6E0BF1EDD513C008B4FD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
